@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: jlf
+Build-Jdk: 1.6.0_29
+Extension-Name: svncompat14
+Implementation-Title: svncompat14
+Implementation-Version: 1.1
+Plugin-Class: hudson.plugins.svncompat14.PluginImpl
+Group-Id: org.jvnet.hudson.plugins
+Short-Name: svncompat14
+Long-Name: SVN 1.4 Compatibility Plugin
+Url: http://wiki.jenkins-ci.org/display/JENKINS/SVNCompat14+Plugin
+Plugin-Version: 1.1
+Hudson-Version: 1.392
+Plugin-Dependencies: subversion:1.3
+Plugin-Developers: Kohsuke Kawaguchi:kohsuke:kk@kohsuke.org,Jesse Fari
+ nacci:jieryn:jieryn@gmail.com
+

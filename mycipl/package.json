@@ -1,0 +1,19 @@
+{
+  "name": "mycipl",
+  "version": "0.0.0",
+  "description": "Description for MYCIPL",
+  "private": true,
+  "license": "UNLICENSED",
+  "cacheDirectories": [
+    "node_modules"
+  ],
+  "devDependencies": {
+    "generator-jhipster": "5.8.0"
+  },
+  "engines": {
+    "node": ">=8.9.0"
+  },
+  "dependencies": {
+    "generator-jhipster-swagger-cli": "^3.0.1"
+  }
+}

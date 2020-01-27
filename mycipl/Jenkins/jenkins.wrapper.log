@@ -1,0 +1,169 @@
+2019-09-24 10:37:00,547 INFO  - Starting ServiceWrapper in the service mode
+2019-09-24 10:37:02,802 INFO  - Starting C:\Program Files (x86)\Jenkins\jre\bin\java -Xrs -Xmx256m -Dhudson.lifecycle=hudson.lifecycle.WindowsServiceLifecycle -jar "C:\Program Files (x86)\Jenkins\jenkins.war" --httpPort=8080 --webroot="C:\Program Files (x86)\Jenkins\war"
+2019-09-24 10:37:03,581 INFO  - Extension loaded: killOnStartup
+2019-09-24 10:37:03,675 WARN  - The requested PID file 'C:\Program Files (x86)\Jenkins\jenkins.pid' does not exist. The runaway process won't be checked
+2019-09-24 10:37:05,148 INFO  - Started process 9728
+2019-09-24 10:37:05,156 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to winsw.SizeBasedRollingLogAppender
+2019-09-24 10:37:05,163 INFO  - Recording PID of the started process:9728. PID file destination is C:\Program Files (x86)\Jenkins\jenkins.pid
+2019-09-24 18:59:39,228 INFO  - Stopping Jenkins
+2019-09-24 18:59:44,228 DEBUG - ProcessKill 9728
+2019-09-24 18:59:50,581 WARN  - Failed to locate children of the process with PID=9728. Child processes won't be terminated
+System.TypeInitializationException: The type initializer for 'System.Management.ManagementPath' threw an exception. ---> System.Runtime.InteropServices.COMException: Retrieving the COM class factory for component with CLSID {CF4CC405-E2C5-4DDD-B3CE-5E7582D8C9FA} failed due to the following error: 80070013 The media is write protected. (Exception from HRESULT: 0x80070013).
+   at System.Management.MTAHelper.CreateInMTA(Type type)
+   at System.Management.ManagementPath.CreateWbemPath(String path)
+   at System.Management.ManagementPath..cctor()
+   --- End of inner exception stack trace ---
+   at System.Management.ManagementScope._Clone(ManagementScope scope, IdentifierChangedEventHandler handler)
+   at System.Management.ManagementObjectSearcher..ctor(ManagementScope scope, ObjectQuery query, EnumerationOptions options)
+   at winsw.Util.ProcessHelper.GetChildPids(Int32 pid)
+2019-09-24 18:59:51,628 INFO  - Stopping process 9728
+2019-09-24 18:59:51,659 INFO  - Send SIGINT 9728
+2019-09-24 18:59:53,987 INFO  - SIGINT to 9728 successful
+2019-09-24 18:59:54,565 INFO  - Finished Jenkins
+2019-09-24 18:59:55,706 DEBUG - Completed. Exit code is 0
+2019-09-26 12:34:13,292 INFO  - Starting ServiceWrapper in the service mode
+2019-09-26 12:34:13,914 INFO  - Starting C:\Program Files (x86)\Jenkins\jre\bin\java -Xrs -Xmx256m -Dhudson.lifecycle=hudson.lifecycle.WindowsServiceLifecycle -jar "C:\Program Files (x86)\Jenkins\jenkins.war" --httpPort=8080 --webroot="C:\Program Files (x86)\Jenkins\war"
+2019-09-26 12:34:14,306 INFO  - Extension loaded: killOnStartup
+2019-09-26 12:34:14,332 DEBUG - Checking the potentially runaway process with PID=9728
+2019-09-26 12:34:14,621 DEBUG - No runaway process with PID=9728. The process has been already stopped.
+2019-09-26 12:34:15,511 INFO  - Started process 5996
+2019-09-26 12:34:15,518 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to winsw.SizeBasedRollingLogAppender
+2019-09-26 12:34:15,524 INFO  - Recording PID of the started process:5996. PID file destination is C:\Program Files (x86)\Jenkins\jenkins.pid
+2019-09-26 12:44:23,582 DEBUG - Starting ServiceWrapper in the CLI mode
+2019-09-26 12:44:34,497 INFO  - Restarting the service with id 'Jenkins'
+2019-09-26 12:44:35,126 DEBUG - Completed. Exit code is 0
+2019-09-26 12:44:35,392 DEBUG - Starting ServiceWrapper in the CLI mode
+2019-09-26 12:44:35,660 INFO  - Restarting the service with id 'Jenkins'
+2019-09-26 12:44:36,343 INFO  - Stopping Jenkins
+2019-09-26 12:44:36,344 DEBUG - ProcessKill 5996
+2019-09-26 12:44:36,756 INFO  - Found child process: 4184 Name: conhost.exe
+2019-09-26 12:44:36,863 INFO  - Stopping process 4184
+2019-09-26 12:44:36,870 INFO  - Send SIGINT 4184
+2019-09-26 12:44:36,918 WARN  - SIGINT to 4184 failed - Killing as fallback
+2019-09-26 12:44:36,952 INFO  - Stopping process 5996
+2019-09-26 12:44:36,957 INFO  - Send SIGINT 5996
+2019-09-26 12:44:36,959 WARN  - SIGINT to 5996 failed - Killing as fallback
+2019-09-26 12:44:36,975 INFO  - Finished Jenkins
+2019-09-26 12:44:36,978 DEBUG - Completed. Exit code is 0
+2019-09-26 12:44:37,985 INFO  - Starting ServiceWrapper in the service mode
+2019-09-26 12:44:38,019 DEBUG - Completed. Exit code is 0
+2019-09-26 12:44:38,071 INFO  - Starting C:\Program Files (x86)\Jenkins\jre\bin\java -Xrs -Xmx256m -Dhudson.lifecycle=hudson.lifecycle.WindowsServiceLifecycle -jar "C:\Program Files (x86)\Jenkins\jenkins.war" --httpPort=8080 --webroot="C:\Program Files (x86)\Jenkins\war"
+2019-09-26 12:44:38,078 INFO  - Extension loaded: killOnStartup
+2019-09-26 12:44:38,082 DEBUG - Checking the potentially runaway process with PID=5996
+2019-09-26 12:44:38,091 DEBUG - No runaway process with PID=5996. The process has been already stopped.
+2019-09-26 12:44:38,205 INFO  - Started process 12792
+2019-09-26 12:44:38,211 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to winsw.SizeBasedRollingLogAppender
+2019-09-26 12:44:38,218 INFO  - Recording PID of the started process:12792. PID file destination is C:\Program Files (x86)\Jenkins\jenkins.pid
+2019-09-26 12:51:23,962 DEBUG - Starting ServiceWrapper in the CLI mode
+2019-09-26 12:51:24,627 INFO  - Restarting the service with id 'Jenkins'
+2019-09-26 12:51:24,680 DEBUG - Completed. Exit code is 0
+2019-09-26 12:51:24,793 DEBUG - Starting ServiceWrapper in the CLI mode
+2019-09-26 12:51:25,030 INFO  - Restarting the service with id 'Jenkins'
+2019-09-26 12:51:25,136 INFO  - Stopping Jenkins
+2019-09-26 12:51:25,137 DEBUG - ProcessKill 12792
+2019-09-26 12:51:25,264 INFO  - Found child process: 6748 Name: conhost.exe
+2019-09-26 12:51:25,322 INFO  - Stopping process 6748
+2019-09-26 12:51:25,328 INFO  - Send SIGINT 6748
+2019-09-26 12:51:25,331 WARN  - SIGINT to 6748 failed - Killing as fallback
+2019-09-26 12:51:25,351 INFO  - Stopping process 12792
+2019-09-26 12:51:25,357 INFO  - Send SIGINT 12792
+2019-09-26 12:51:25,359 WARN  - SIGINT to 12792 failed - Killing as fallback
+2019-09-26 12:51:25,364 INFO  - Finished Jenkins
+2019-09-26 12:51:25,367 DEBUG - Completed. Exit code is 0
+2019-09-26 12:51:26,586 INFO  - Starting ServiceWrapper in the service mode
+2019-09-26 12:51:26,600 DEBUG - Completed. Exit code is 0
+2019-09-26 12:51:26,607 INFO  - Starting C:\Program Files (x86)\Jenkins\jre\bin\java -Xrs -Xmx256m -Dhudson.lifecycle=hudson.lifecycle.WindowsServiceLifecycle -jar "C:\Program Files (x86)\Jenkins\jenkins.war" --httpPort=8080 --webroot="C:\Program Files (x86)\Jenkins\war"
+2019-09-26 12:51:26,614 INFO  - Extension loaded: killOnStartup
+2019-09-26 12:51:26,626 DEBUG - Checking the potentially runaway process with PID=12792
+2019-09-26 12:51:26,633 DEBUG - No runaway process with PID=12792. The process has been already stopped.
+2019-09-26 12:51:26,687 INFO  - Started process 5728
+2019-09-26 12:51:26,691 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to winsw.SizeBasedRollingLogAppender
+2019-09-26 12:51:26,694 INFO  - Recording PID of the started process:5728. PID file destination is C:\Program Files (x86)\Jenkins\jenkins.pid
+2019-09-26 13:11:04,755 INFO  - Stopping Jenkins
+2019-09-26 13:11:04,757 DEBUG - ProcessKill 5728
+2019-09-26 13:11:04,826 INFO  - Found child process: 6612 Name: conhost.exe
+2019-09-26 13:11:04,863 INFO  - Stopping process 6612
+2019-09-26 13:11:04,868 INFO  - Send SIGINT 6612
+2019-09-26 13:11:04,870 WARN  - SIGINT to 6612 failed - Killing as fallback
+2019-09-26 13:11:04,872 INFO  - Stopping process 5728
+2019-09-26 13:11:04,876 INFO  - Send SIGINT 5728
+2019-09-26 13:11:04,878 WARN  - SIGINT to 5728 failed - Killing as fallback
+2019-09-26 13:11:04,880 INFO  - Finished Jenkins
+2019-09-26 13:11:04,882 DEBUG - Completed. Exit code is 0
+2019-09-26 14:23:13,066 INFO  - Starting ServiceWrapper in the service mode
+2019-09-26 14:23:13,082 INFO  - Starting C:\Program Files (x86)\Jenkins\jre\bin\java -Xrs -Xmx256m -Dhudson.lifecycle=hudson.lifecycle.WindowsServiceLifecycle -jar "C:\Program Files (x86)\Jenkins\jenkins.war" --httpPort=8080 --webroot="C:\Program Files (x86)\Jenkins\war"
+2019-09-26 14:23:13,097 INFO  - Extension loaded: killOnStartup
+2019-09-26 14:23:13,104 DEBUG - Checking the potentially runaway process with PID=5728
+2019-09-26 14:23:13,104 DEBUG - No runaway process with PID=5728. The process has been already stopped.
+2019-09-26 14:23:13,684 INFO  - Started process 12596
+2019-09-26 14:23:13,699 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to winsw.SizeBasedRollingLogAppender
+2019-09-26 14:23:13,706 INFO  - Recording PID of the started process:12596. PID file destination is C:\Program Files (x86)\Jenkins\jenkins.pid
+2019-09-26 14:24:09,123 INFO  - Stopping Jenkins
+2019-09-26 14:24:09,123 DEBUG - ProcessKill 12596
+2019-09-26 14:24:09,192 INFO  - Found child process: 2756 Name: conhost.exe
+2019-09-26 14:24:09,230 INFO  - Stopping process 2756
+2019-09-26 14:24:09,235 INFO  - Send SIGINT 2756
+2019-09-26 14:24:09,237 WARN  - SIGINT to 2756 failed - Killing as fallback
+2019-09-26 14:24:09,240 INFO  - Stopping process 12596
+2019-09-26 14:24:09,245 INFO  - Send SIGINT 12596
+2019-09-26 14:24:09,246 WARN  - SIGINT to 12596 failed - Killing as fallback
+2019-09-26 14:24:09,249 INFO  - Finished Jenkins
+2019-09-26 14:24:09,250 DEBUG - Completed. Exit code is 0
+2019-09-26 14:24:14,283 INFO  - Starting ServiceWrapper in the service mode
+2019-09-26 14:24:14,314 INFO  - Starting C:\Program Files (x86)\Jenkins\jre\bin\java -Xrs -Xmx256m -Dhudson.lifecycle=hudson.lifecycle.WindowsServiceLifecycle -jar "C:\Program Files (x86)\Jenkins\jenkins.war" --httpPort=8080 --webroot="C:\Program Files (x86)\Jenkins\war"
+2019-09-26 14:24:14,314 INFO  - Extension loaded: killOnStartup
+2019-09-26 14:24:14,330 DEBUG - Checking the potentially runaway process with PID=12596
+2019-09-26 14:24:14,330 DEBUG - No runaway process with PID=12596. The process has been already stopped.
+2019-09-26 14:24:14,546 INFO  - Started process 7100
+2019-09-26 14:24:14,546 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to winsw.SizeBasedRollingLogAppender
+2019-09-26 14:24:14,561 INFO  - Recording PID of the started process:7100. PID file destination is C:\Program Files (x86)\Jenkins\jenkins.pid
+2019-09-26 14:31:17,145 DEBUG - Starting ServiceWrapper in the CLI mode
+2019-09-26 14:31:22,441 INFO  - Restarting the service with id 'Jenkins'
+2019-09-26 14:31:22,528 DEBUG - Completed. Exit code is 0
+2019-09-26 14:31:22,642 DEBUG - Starting ServiceWrapper in the CLI mode
+2019-09-26 14:31:22,883 INFO  - Restarting the service with id 'Jenkins'
+2019-09-26 14:31:22,901 INFO  - Stopping Jenkins
+2019-09-26 14:31:22,903 DEBUG - ProcessKill 7100
+2019-09-26 14:31:22,967 INFO  - Found child process: 10376 Name: conhost.exe
+2019-09-26 14:31:23,003 INFO  - Stopping process 10376
+2019-09-26 14:31:23,006 INFO  - Send SIGINT 10376
+2019-09-26 14:31:23,009 WARN  - SIGINT to 10376 failed - Killing as fallback
+2019-09-26 14:31:23,011 INFO  - Stopping process 7100
+2019-09-26 14:31:23,016 INFO  - Send SIGINT 7100
+2019-09-26 14:31:23,018 WARN  - SIGINT to 7100 failed - Killing as fallback
+2019-09-26 14:31:23,021 INFO  - Finished Jenkins
+2019-09-26 14:31:23,023 DEBUG - Completed. Exit code is 0
+2019-09-26 14:31:24,370 INFO  - Starting ServiceWrapper in the service mode
+2019-09-26 14:31:24,383 DEBUG - Completed. Exit code is 0
+2019-09-26 14:31:24,398 INFO  - Starting C:\Program Files (x86)\Jenkins\jre\bin\java -Xrs -Xmx256m -Dhudson.lifecycle=hudson.lifecycle.WindowsServiceLifecycle -jar "C:\Program Files (x86)\Jenkins\jenkins.war" --httpPort=8080 --webroot="C:\Program Files (x86)\Jenkins\war"
+2019-09-26 14:31:24,405 INFO  - Extension loaded: killOnStartup
+2019-09-26 14:31:24,409 DEBUG - Checking the potentially runaway process with PID=7100
+2019-09-26 14:31:24,416 DEBUG - No runaway process with PID=7100. The process has been already stopped.
+2019-09-26 14:31:24,530 INFO  - Started process 4480
+2019-09-26 14:31:24,535 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to winsw.SizeBasedRollingLogAppender
+2019-09-26 14:31:24,542 INFO  - Recording PID of the started process:4480. PID file destination is C:\Program Files (x86)\Jenkins\jenkins.pid
+2019-09-26 14:40:01,996 DEBUG - Starting ServiceWrapper in the CLI mode
+2019-09-26 14:40:02,338 INFO  - Restarting the service with id 'Jenkins'
+2019-09-26 14:40:02,378 DEBUG - Completed. Exit code is 0
+2019-09-26 14:40:02,474 DEBUG - Starting ServiceWrapper in the CLI mode
+2019-09-26 14:40:02,696 INFO  - Restarting the service with id 'Jenkins'
+2019-09-26 14:40:02,714 INFO  - Stopping Jenkins
+2019-09-26 14:40:02,714 DEBUG - ProcessKill 4480
+2019-09-26 14:40:02,777 INFO  - Found child process: 10860 Name: conhost.exe
+2019-09-26 14:40:02,810 INFO  - Stopping process 10860
+2019-09-26 14:40:02,814 INFO  - Send SIGINT 10860
+2019-09-26 14:40:02,816 WARN  - SIGINT to 10860 failed - Killing as fallback
+2019-09-26 14:40:02,818 INFO  - Stopping process 4480
+2019-09-26 14:40:02,823 INFO  - Send SIGINT 4480
+2019-09-26 14:40:02,824 WARN  - SIGINT to 4480 failed - Killing as fallback
+2019-09-26 14:40:02,827 INFO  - Finished Jenkins
+2019-09-26 14:40:02,829 DEBUG - Completed. Exit code is 0
+2019-09-26 14:40:04,061 INFO  - Starting ServiceWrapper in the service mode
+2019-09-26 14:40:04,076 DEBUG - Completed. Exit code is 0
+2019-09-26 14:40:04,083 INFO  - Starting C:\Program Files (x86)\Jenkins\jre\bin\java -Xrs -Xmx256m -Dhudson.lifecycle=hudson.lifecycle.WindowsServiceLifecycle -jar "C:\Program Files (x86)\Jenkins\jenkins.war" --httpPort=8080 --webroot="C:\Program Files (x86)\Jenkins\war"
+2019-09-26 14:40:04,089 INFO  - Extension loaded: killOnStartup
+2019-09-26 14:40:04,095 DEBUG - Checking the potentially runaway process with PID=4480
+2019-09-26 14:40:04,103 DEBUG - No runaway process with PID=4480. The process has been already stopped.
+2019-09-26 14:40:04,147 INFO  - Started process 10676
+2019-09-26 14:40:04,152 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to winsw.SizeBasedRollingLogAppender
+2019-09-26 14:40:04,156 INFO  - Recording PID of the started process:10676. PID file destination is C:\Program Files (x86)\Jenkins\jenkins.pid

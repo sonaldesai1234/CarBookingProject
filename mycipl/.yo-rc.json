@@ -1,0 +1,36 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.mycipl"
+    },
+    "jhipsterVersion": "6.2.0",
+    "applicationType": "monolith",
+    "baseName": "MYCIPL",
+    "packageName": "com.mycipl",
+    "packageFolder": "com/mycipl",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "mongodb",
+    "devDatabaseType": "mongodb",
+    "prodDatabaseType": "mongodb",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "Njg4MGM3NTA0ZmQ2YzM3N2Q5YjMyNGMzOWNkYTExMmEwYjk5MDU4MzJlNWZmOTg5OGEyOTRjM2UzNjQ5YmI4YTJkZDcxZGVjYWQ1MDE0OGUwNTdiNTcyYTk3NWJkYjYyYzhiODdkYzk5OGFmZmU2NDI5MWVlMWUzZDhkODRmZDk=",
+    "enableTranslation": false,
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "angularX",
+    "clientTheme": "none",
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "blueprints": []
+  }
+}
